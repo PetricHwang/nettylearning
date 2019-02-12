@@ -17,6 +17,7 @@ public class TestServer {
         // NioEventLoopGroup就一个死循环；bossGroup接收连接，把连接分发给workerGroup
         EventLoopGroup bossGroup = new NioEventLoopGroup();
         EventLoopGroup workerGroup = new NioEventLoopGroup();
+
         try {
             ServerBootstrap serverBootstrap = new ServerBootstrap();
             serverBootstrap.group(bossGroup, workerGroup).channel(NioServerSocketChannel.class)
