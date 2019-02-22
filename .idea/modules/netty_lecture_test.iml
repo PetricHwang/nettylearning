@@ -11,7 +11,11 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="netty_lecture_main" />
     <orderEntry type="library" name="Gradle: io.netty:netty-all:4.1.33.Final" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.protobuf:protobuf-java-util:3.7.0-rc1" level="project" />
     <orderEntry type="library" name="Gradle: com.google.protobuf:protobuf-java:3.7.0-rc1" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:guava:20.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.errorprone:error_prone_annotations:2.3.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.7" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="netty_lecture_main" />
   <component name="sonarModuleSettings">
