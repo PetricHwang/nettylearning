@@ -22,6 +22,7 @@ public class TestServerHandler extends SimpleChannelInboundHandler<MyDataInfo.My
             System.out.println(cat.getName());
             System.out.println(cat.getCity());
         }
+
         ctx.channel().close();
     }
 }
