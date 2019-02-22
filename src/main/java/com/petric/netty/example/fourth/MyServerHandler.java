@@ -31,7 +31,7 @@ public class MyServerHandler extends ChannelInboundHandlerAdapter {
                     break;
             }
             System.out.println(ctx.channel().remoteAddress() + "超时事件：" + eventType);
-            ctx.channel().close();
+                ctx.channel().close();
         }
     }
 }
