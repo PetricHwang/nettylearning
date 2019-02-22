@@ -10,6 +10,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: io.netty:netty-all:4.1.33.Final" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.protobuf:protobuf-java:3.7.0-rc1" level="project" />
   </component>
   <component name="sonarModuleSettings">
     <option name="localAnalysisScripName" value="&lt;PROJECT&gt;" />
